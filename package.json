@@ -1,8 +1,16 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "jbt-marketing-site",
+  "description": "Marketing site for jbt renovations",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "license": "MIT",
+  "author": "Adam Lancaster",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "yarn develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo :("
+  },
   "dependencies": {
     "gatsby": "^2.0.19",
     "gatsby-image": "^2.0.15",
@@ -16,22 +24,7 @@
     "react-dom": "^16.5.1",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "start": "npm run develop",
-    "format": "prettier --write \"src/**/*.js\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "devDependencies": {
     "prettier": "^1.14.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
   }
 }
